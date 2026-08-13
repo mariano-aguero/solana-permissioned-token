@@ -1,0 +1,25 @@
+# Local tool configuration
+.claude/
+.cursor/
+.aider*
+
+# Rust / Anchor
+target/
+**/*.rs.bk
+test-ledger/
+.anchor/
+
+.surfpool/
+
+# Node
+node_modules/
+.pnpm-store/
+.yarn/
+
+# Keys — never commit a keypair
+*.json.key
+keypairs/
+!Anchor.toml
+
+# OS
+.DS_Store

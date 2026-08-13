@@ -1,0 +1,5 @@
+# Supply chain hardening: only install versions published at least 7 days ago,
+# transitive dependencies included, so that a compromised maintainer account is
+# detected before the malicious version can enter an install. An urgent security
+# patch may bypass this with minimumReleaseAgeExclude or a pnpm.overrides entry.
+minimumReleaseAge: 10080 # minutes = 7 days

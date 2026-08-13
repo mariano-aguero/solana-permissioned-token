@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["mocha", "chai"],
+    "typeRoots": ["./node_modules/@types"],
+    // ES2020 rather than the scaffold's ES6: SPL token amounts are `bigint`,
+    // and BigInt literals are unavailable below this target.
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
